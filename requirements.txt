@@ -1,4 +1,4 @@
-transformers==4.40.1
+transformers==4.50.0
 datasets==2.19.0
 evaluate==0.4.1
 gradio==4.29.0
