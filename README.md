@@ -2,7 +2,6 @@
 
 EdBot is a transformer-based chatbot trained on a curated Q&A dataset to assist users with accurate and context-aware responses in an educational setting. This project demonstrates fine-tuning of a pre-trained model, preprocessing of textual data, and interactive chatbot deployment.
 
----
 
 ##  Dataset
 
@@ -13,7 +12,6 @@ The dataset used for training EdBot is a curated **question-and-answer corpus** 
 
 This dataset was preprocessed to tokenize and clean text for fine-tuning a transformer model.
 
----
 
 ##  Data Preprocessing
 
@@ -23,7 +21,6 @@ The preprocessing steps included:
 - Conversion into PyTorch `Dataset` format for batching
 - Padding and truncation to a fixed sequence length
 
----
 
 ##  Model Training
 
@@ -35,7 +32,6 @@ We fine-tuned **DistilBERT** using a question-answering architecture with these 
 
 Training was done for 3 epochs using the AdamW optimizer and learning rate scheduling.
 
----
 
 ##  Chatbot Interaction
 
@@ -62,7 +58,6 @@ Due to the dataset's format and scale, we evaluated model quality based on:
 
 > **Note:** Quantitative metrics (like BLEU or ROUGE) are not used, as this is a QA chatbot with open-ended responses.
 
----
 
 ## How to Run
 
