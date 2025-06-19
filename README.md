@@ -30,3 +30,5 @@ git clone https://github.com/Justice00000/SUMMATIVE-ASSIGNMENT-EDBOT/
 pip install transformers datasets gradio evaluate tensorflow
 ```
 Then run the notebook and launch the chatbot via Gradio
+
+## [Demo Video](https://www.youtube.com/watch?v=ua3-5f_V7kg)
